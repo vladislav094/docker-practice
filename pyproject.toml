@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "docker_tms"
+version = "0.1.0"
+description = ""
+authors = ["Vladislav.H <vkhrabrov94@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Flask = "^2.1.2"
+requests = "^2.28.1"
+Resource = "^0.2.1"
+api = "^0.0.7"
+Flask-RESTful = "^0.3.9"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
